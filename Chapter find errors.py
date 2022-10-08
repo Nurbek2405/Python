@@ -45,7 +45,8 @@ else:
     print(i*2)
 
 #7.5 Была упущена кавычка в 48 строке
-i=int(input('Введите число'))
+print('Пятая задача')
+i=int(input('Введите число\n'))
 if i <=0:
     print(i)
 elif i>0:
@@ -59,7 +60,17 @@ elif i>0:
         else:
             print('Error')
 
-#7.6
+#7.6 Ошибка в сравнении строк и цифр 66 строка
+print('Шестая задача')
+i=int(input('Введите число '))
+c = int(input("c= "))
+i = c+3
+if c > 1:
+    i = i-1
+    print(i)
+elif c == 0:
+    i= i+1
+    print(i)
 
 
 #7.7
