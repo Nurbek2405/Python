@@ -73,4 +73,36 @@ elif c == 0:
     print(i)
 
 
-#7.7
+#7.7 Ошибка в табуляции строк 80, 82, 84, 86, 88, 90
+print('Седьмая задача')
+i=15
+if i <=0:
+    print(i)
+elif i > 0:
+    i = i - 10
+if i <=0:
+    print(i)
+elif i > 0:
+    i  = i-10
+if i <=0:
+    print(i)
+else:
+    print('Error')
+
+# 7.8 Ошибка в строках 96 и 99 умножение до начало присваивание
+print('Восьмая задача')
+i = 4
+if i > 1 and i < 10:
+    i*= 2
+    print(i)
+    if i > 1 and i < 10:
+        i*= 2
+        print(i)
+        if i > 1 and i < 10:
+            print(i*2)
+        else:
+            print(i+2)
+    else:
+        print(i+2)
+else:
+    print(i)
