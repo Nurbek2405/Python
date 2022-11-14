@@ -1,7 +1,9 @@
-my_list = [5,4,3,2,1]
+# меньше код в пайтоне, чем в других языках программирования
 
-for i in range(4):
-    if my_list[i] > my_list[i+1]:
-        my_list[i], my_list[i+1] = my_list[i+1], my_list[i]
+my_list = [3,5,2,3,1]
+for j in range(4):
+    for i in range(4):
+        if my_list[i] > my_list[i+1]:
+            my_list[i], my_list[i+1] = my_list[i+1], my_list[i]
     print(my_list)
 print(my_list)
