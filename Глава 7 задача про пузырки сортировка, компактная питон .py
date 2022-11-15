@@ -7,3 +7,5 @@ for j in range(4):
             my_list[i], my_list[i+1] = my_list[i+1], my_list[i]
     print(my_list)
 print(my_list)
+
+# хорошо бы это запомнит)
